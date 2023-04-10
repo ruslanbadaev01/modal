@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* body {
+  background-image: url(./assets/fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.modal-container {
+  background: #ffffff;
+  box-shadow: -10px 7px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding-top: 56px;
+  padding-bottom: 90px;
+  width: 516px;
+  height: 508px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.modal-logo {
+  margin: 0 auto;
+  width: 263px;
+  height: 172px;
+  background-image: url(./assets/logo.png);
+}
+.modal-content {
+  padding-left: 85px;
+  padding-right: 85px;
+  box-sizing: border-box;
+}
+.modal-content-form {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  width: 350px;
+  color: #10100f;
+  display: flex;
+  align-content: stretch;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.input-fir {
+  margin-top: 62px;
+}
+.input-sec {
+  margin-top: 42px;
+}
+form input {
+  width: 343px;
+  height: 32px;
+  border: 1px solid #10100f;
+  border-radius: 5px;
+}
+input:focus {
+  border-color: blue;
+  outline: none; /* Это предотвратит отображение контура при фокусировке */
+}
+.forgot-pass {
+  text-align: right;
+  text-decoration: none;
+}
+.forgot-pass a {
+  color: #f6b52e;
+
+  text-decoration: none;
+}
+.button-submit {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  cursor: pointer;
+  color: #ffffff;
+  width: 343px;
+  height: 44px;
+  border: none;
+  background: #f2b705;
+  border-radius: 5px;
+}
+.close-btn {
+  position: absolute;
+}
+
+.modal-header {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 364px;
+  font-family: "Manrope";
+  font-size: 20px;
+  line-height: 27px;
+  color: #989898;
+}
+.modal-content {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #989898;
+}
